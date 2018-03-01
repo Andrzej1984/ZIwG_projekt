@@ -1,0 +1,22 @@
+Specyfikacja / Za³o¿enia
+1. Dodawanie u¿ytkowników, podstawowe dane, zdjêcie itp
+2. Aplikacja zupe³nie darmowa do osi¹gniêcia minimum 10 Fryzjerów i 100 klientów
+3. Po uzyskaniu minimalej iloœci u¿ytkowników wprowadzenie reklam
+4. Aplikacja dla mieszkañców miasta Wroc³aw
+5. Podzia³ na dzielnice
+
+
+6. Dwa typy u¿ytkowników 
+	a) Fryzjer œwiadcz¹cy us³ugi domowe
+	b) Klient
+	Ad a)
+		1. Umieszczenie danych zak³adu
+		2. Cennik
+		3. Teren prowadzenia us³ug(dzielnice, ulice -opcjonalnie)
+		4. Komentarz orac ocena klienta
+		5. 
+	Ad b)
+		1. Wyszukiwanie po dzielnicach, najlepszej ocenie, iloœci ocen, iloœci komentarzy
+		2. Komentarz oraz ocena fryzjera
+		3. Wyszukiwanie po ulicach -opcjonalnie
+		 
