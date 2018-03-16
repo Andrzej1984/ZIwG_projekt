@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-02-19" view-index="0" gantt-divider-location="390" resource-divider-location="300" version="2.8.5" locale="pl_PL">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-02-19" view-index="0" gantt-divider-location="366" resource-divider-location="300" version="2.8.5" locale="pl">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nazwa zadania" width="238" order="0"/>
-        <field id="tpd4" name="Data rozpoczęcia" width="93" order="1"/>
+        <field id="tpd3" name="Nazwa zadania" width="217" order="0"/>
+        <field id="tpd4" name="Data rozpoczęcia" width="90" order="1"/>
         <field id="tpd6" name="Czas trwania" width="55" order="2"/>
     </view>
     <view id="resource-table">
@@ -33,7 +33,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="114" name="Projekt ZIwG" meeting="false" start="2018-02-22" duration="80" complete="0" expand="true">
+        <task id="114" name="Projekt ZIwG" meeting="false" start="2018-02-22" duration="77" complete="0" expand="true">
             <task id="0" name="Faza wstępna" color="#000000" meeting="false" start="2018-02-22" duration="10" complete="0" expand="true">
                 <task id="1" name="Badanie rynku i wywiad środowiskowy" color="#8cb6ce" meeting="false" start="2018-02-22" duration="4" complete="0" expand="true">
                     <depend id="8" type="2" difference="0" hardness="Strong"/>
@@ -55,37 +55,49 @@
                 </task>
                 <task id="75" name="Zatwierdzenie projektu" color="#8cb6ce" meeting="true" start="2018-03-22" duration="0" complete="0" expand="true"/>
             </task>
-            <task id="14" name="Implementacja" color="#000000" meeting="false" start="2018-03-22" duration="32" complete="0" expand="true">
+            <task id="14" name="Implementacja" color="#000000" meeting="false" start="2018-03-22" duration="29" complete="0" expand="true">
                 <task id="17" name="Przygotowanie serwera" color="#8cb6ce" meeting="false" start="2018-03-22" duration="10" complete="0" expand="true">
                     <depend id="18" type="2" difference="0" hardness="Strong"/>
                     <depend id="19" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="18" name="Aplikacja deskop" color="#8cb6ce" meeting="false" start="2018-04-05" duration="22" complete="0" expand="true">
+                <task id="18" name="Aplikacja desktop" color="#8cb6ce" meeting="false" start="2018-04-05" duration="19" complete="0" expand="false">
                     <depend id="73" type="2" difference="0" hardness="Strong"/>
+                    <task id="120" name="Makieta interfejsu" color="#8cb6ce" meeting="false" start="2018-04-05" duration="5" complete="0" expand="true">
+                        <depend id="117" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="117" name="funkcja logowania" color="#8cb6ce" meeting="false" start="2018-04-12" duration="5" complete="0" expand="true"/>
+                    <task id="124" name="funkcje wyszukiwarki" color="#8cb6ce" meeting="false" start="2018-04-19" duration="5" complete="0" expand="true"/>
+                    <task id="123" name="funkcje panelu fryzjera" meeting="false" start="2018-04-26" duration="2" complete="0" expand="true"/>
+                    <task id="143" name="pozostałe funkcje" color="#8cb6ce" meeting="false" start="2018-04-30" duration="2" complete="0" expand="true"/>
                 </task>
-                <task id="19" name="Aplikacja mobilna" color="#8cb6ce" meeting="false" start="2018-04-05" duration="22" complete="0" expand="true">
+                <task id="19" name="Aplikacja mobilna" color="#8cb6ce" meeting="false" start="2018-04-05" duration="19" complete="0" expand="false">
                     <depend id="73" type="2" difference="0" hardness="Strong"/>
+                    <task id="126" name="makieta interfejsu" meeting="false" start="2018-04-05" duration="5" complete="0" expand="true"/>
+                    <task id="137" name="funkcja logowania" meeting="false" start="2018-04-12" duration="5" complete="0" expand="true"/>
+                    <task id="135" name="funkcje wyszukiwarki" meeting="false" start="2018-04-19" duration="5" complete="0" expand="true"/>
+                    <task id="139" name="funkcje panelu fryzjera" meeting="false" start="2018-04-26" duration="2" complete="0" expand="true"/>
+                    <task id="144" name="pozostałe funkcje" color="#8cb6ce" meeting="false" start="2018-04-30" duration="2" complete="0" expand="true"/>
                 </task>
-                <task id="73" name="Uruchomienie" color="#8cb6ce" meeting="true" start="2018-05-07" duration="0" complete="0" expand="true">
+                <task id="73" name="Uruchomienie" color="#8cb6ce" meeting="true" start="2018-05-02" duration="0" complete="0" expand="true">
                     <depend id="88" type="2" difference="0" hardness="Strong"/>
                     <depend id="89" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="26" name="Optymalizacja i testy" meeting="false" start="2018-05-07" duration="18" complete="0" expand="true">
-                <task id="88" name="Modyfikacje graficzne" color="#8cb6ce" meeting="false" start="2018-05-07" duration="18" complete="0" expand="true">
+            <task id="26" name="Optymalizacja i testy" meeting="false" start="2018-05-02" duration="18" complete="0" expand="true">
+                <task id="88" name="Modyfikacje graficzne" color="#8cb6ce" meeting="false" start="2018-05-02" duration="18" complete="0" expand="true">
                     <depend id="98" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="89" name="Testy manualne" color="#8cb6ce" meeting="false" start="2018-05-07" duration="18" complete="0" expand="true">
+                <task id="89" name="Testy manualne" color="#8cb6ce" meeting="false" start="2018-05-02" duration="18" complete="0" expand="true">
                     <depend id="98" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="98" name="Produkt beta" color="#8cb6ce" meeting="true" start="2018-05-31" duration="0" complete="0" expand="true">
+                <task id="98" name="Oddanie produktu alfa" color="#8cb6ce" meeting="true" start="2018-05-28" duration="0" complete="0" expand="true">
                     <depend id="100" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="100" name="Poprawki" color="#8cb6ce" meeting="false" start="2018-05-31" duration="10" complete="0" expand="true">
+            <task id="100" name="Poprawki" color="#8cb6ce" meeting="false" start="2018-05-28" duration="10" complete="0" expand="true">
                 <depend id="112" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="112" name="Oddanie produktu alfa" color="#8cb6ce" meeting="true" start="2018-06-14" duration="0" complete="0" expand="true"/>
+            <task id="112" name="Oddanie produktu końcowego" color="#8cb6ce" meeting="true" start="2018-06-11" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
